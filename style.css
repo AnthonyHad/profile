@@ -21,8 +21,13 @@ p {
 }
 
 a{
-  color:#f6ae2d;
+  color: white;
   text-decoration: none;
+  background-color: #f6ae2d;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+
 
 }
 
