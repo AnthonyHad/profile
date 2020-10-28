@@ -1,0 +1,130 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #e5dce2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  color: #61707d;
+  text-align: center;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: #1c0221;
+  text-align: center;
+}
+
+a{
+  color:#f6ae2d;
+  text-decoration: none;
+
+}
+
+
+a:hover {
+  color: black ;
+}
+
+.image-circle {
+  width: 100px;
+  border-radius:50%;
+
+
+}
+
+.list-inline  {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 25px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 800px;        /* Set the width */
+margin: 0 auto;
+}
+
+.card {
+display: flex;
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 400px;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin: 30px auto 30px auto;
+}
+
+@media(max-width: 960px) {
+.container {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 800px;        /* Set the width */
+margin: 0 auto;
+}
+  }
+
+
+
+@media(max-width: 720px) {
+.container {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 600px;        /* Set the width */
+margin: 0 auto;
+}
+  }
+
+
+@media(max-width: 540px) {
+.container {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 400px;        /* Set the width */
+margin: 0 auto;
+}
+
+.card {
+display: flex;
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 1px solid lightgrey;
+width: 200px;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin: 30px auto 30px auto;
+}
+  }
+
+
+
